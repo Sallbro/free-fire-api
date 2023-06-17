@@ -3,7 +3,7 @@ const app = express();
 const axios = require('axios');
 const dotenv = require('dotenv');
 dotenv.config();
-const port = process.env['PORT'] || 3000;
+const port = process.env['PORT'] || 9332;
 
 app.get('/', (req, res) => {
     res.send('Welcome to free fire api server');
